@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Huninn&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Murecho:wght@100..900&family=Open+Sans:wght@426&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Murecho", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #000000;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+.negr {
+    background: #fd86bd;
+    max-width: 800px;
+    padding: 40px;
+    border-radius: 110px;
+    margin: auto;
+}
+.negr img {
+    border-radius: 500px;
+    width: 250px;
+} 
+.negr img:hover {
+    border-radius: 80px;
+    width: 350px;
+    transition: all 1s ease;
+}
+.negr img:active {
+    width: 270px;
+}
